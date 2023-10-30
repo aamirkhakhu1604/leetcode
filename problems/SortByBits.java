@@ -11,7 +11,7 @@ Return the array after sorting it.
 import java.io.*;
 import java.util.*;
 
-class Solution {
+class SortByBits {
     public int[] sortByBits(int[] arr) {
 
         Integer[] intArr = Arrays.stream(arr).boxed().toArray(Integer[]::new);
